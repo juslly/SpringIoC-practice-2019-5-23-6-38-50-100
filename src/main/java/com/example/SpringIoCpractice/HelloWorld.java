@@ -11,11 +11,7 @@ public class HelloWorld {
     }
 
 
-  public void setHello(String hello) {
-    this.hello = hello;
-  }
-
-  public void getHello() {
-    System.out.println(hello);
+  public void getname() {
+    System.out.println(name);
   }
 }
