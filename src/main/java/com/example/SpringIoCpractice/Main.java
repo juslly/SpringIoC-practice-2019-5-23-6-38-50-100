@@ -15,6 +15,6 @@ public class Main {
         //2、从IOC容器中获取Bean
         Person person = (Person) ctx.getBean("Person");
         //3、调用hello方法
-        person.name();
+        person.getname();
     }
 }
