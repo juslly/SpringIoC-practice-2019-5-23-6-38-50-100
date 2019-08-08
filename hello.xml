@@ -6,4 +6,7 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--Code here-->
+    <bean id="Person" class="com.spring.HelloWorld">
+        <property name="name" value="zhangjing"></property>
+    </bean>
 </beans>
